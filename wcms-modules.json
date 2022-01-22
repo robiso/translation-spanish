@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "plugins": {
+        "translation-spanish": {
+            "name": "Translation Spanish",
+            "repo": "https://github.com/robiso/translation-spanish/tree/master",
+            "zip": "https://github.com/robiso/translation-spanish/archive/master.zip",
+            "summary": "Spanish translation for WonderCMS settings.",
+            "version": "3.0.1",
+            "image": "https://raw.githubusercontent.com/robiso/translation-spanish/master/preview.jpg"
+        }
+    }
+}
