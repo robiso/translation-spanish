@@ -5,6 +5,7 @@ OVERLAYS
 
 BUTTONS
     "> Settings","> Ajustes"
+    "return confirm\('Log out\?'\)","return confirm('Cerrar sesión?')"
 
 
 MENU ITEMS
@@ -29,6 +30,10 @@ MENU
     ">Website title","> Título del sitio"
     ">Page to display on homepage","> Página principal a mostrar"
     ">visit",">visitar"
+    "title=""Make page private \(only you see it while logged in\)""","title=""Hacer privada la página (solo tú la ves mientras tienes la sesión iniciada)"""
+    "title=""Make page public""","title=""Hacer pública la página"""
+    "lockIcon""><\/i> private<\/a>","lockIcon""></i> privada</a>"
+    "lockIcon""><\/i> public<\/a>","lockIcon""></i> pública</a>"
     "> Add page","> Añadir página"
 
 
@@ -39,17 +44,24 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> Buscar actualizaciones"
+    "title=""Remove this repository from the list""","title=""Quitar este repositorio de la lista"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""Quitar $1? Lo que hayas instalado desde él se mantiene."""
     "return confirm\('Remove (.*?)\?'\)","return confirm('Eliminar $1?')"
     "data-confirm=""Remove (.*?)\?""","data-confirm=""Eliminar $1?"""
     ">Active",">Activo"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Activar $1?')"
     "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Activar $1?"""
+    "data-confirm=""Disable (.*?)\?""","data-confirm=""Desactivar $1?"""
+    "data-confirm=""This is an (.*?) plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Este es un complemento de tipo $1. Instalar $2 desactivará $3. Continuar?"""
+    "data-confirm=""This is an (.*?) plugin\. Updating (.*?) will keep it enabled and disable (.*?)\. Continue\?""","data-confirm=""Este es un complemento de tipo $1. Actualizar $2 lo mantendrá activo y desactivará $3. Continuar?"""
+    "data-confirm=""This is an (.*?) plugin\. Enabling (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Este es un complemento de tipo $1. Activar $2 desactivará $3. Continuar?"""
     "> Activate","> Activar"
     "> More info","> Más información"
     "> Install","> Instalar"
     ">Installed version:",">Versión instalada:"
     ">Custom repository",">Repositorio personalizado"
     "Enter URL to custom repository","Dirección URL del repositorio personalizado"
+    "return confirm\('Adding unknown modules can be VERY dangerous, are you sure you want to continue\?'\)","return confirm('Añadir módulos desconocidos puede ser MUY peligroso, seguro que quieres continuar?')"
     "> Add", "> Añadir"
     "> Read more about custom repositories",">Más información sobre respositorios personalizados"
 
@@ -67,6 +79,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">Redirección HTTPS, caché 30 días, iframes permitidas sólo del mismo origen, prevención de escucha de tipos mime, política estricta sobre cookies y referrers."
     ">ON \(warning: may break your website\)",">ACTIVADO (aviso: puede estropear el sitio web)"
     ">OFF \(reset htaccess to default\)",">DESACTIVADO (archivo htaccess original)"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('Estás seguro? Esto podría romper tu sitio web si no tienes SSL configurado correctamente.')"
     "> Read more before enabling","> Antes de activarlo infórmate bien"
     ">Backup","> Copia de Seguridad"
     "> Backup website","> Hacer copia de seguridad del sitio"
