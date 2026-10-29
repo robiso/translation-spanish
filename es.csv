@@ -138,7 +138,6 @@ ALERTS
     "^Custom module not found\.$","Módulo personalizado no encontrado."
     "Custom module <b>([^<]*)<\/b> removed from <a ([^>]*)>([^<]*)<\/a>\. Anything installed from it stays until you remove it\.","Se quitó el módulo personalizado <b>$1</b> de <a $2>$3</a>. Lo que hayas instalado desde él se mantiene hasta que lo quites."
     "Module successfully added to <a ([^>]*)>([^<]*)<\/b><\/a>\.","Módulo añadido correctamente a <a $1>$2</b></a>."
-    "Every remaining page is private, so the new home page \(([^<]*?)\) is private too: visitors get the 404 page at the site address\. Make it public in Settings -> Menu\.","Todas las páginas restantes son privadas, así que la nueva página de inicio ($1) también lo es: los visitantes reciben la página 404 en la dirección del sitio. Hazla pública en Ajustes -> Menú."
     "A private page cannot be the home page: visitors would get the 404 page at the site address\. Make it public first\.","Una página privada no puede ser la página de inicio: los visitantes recibirían la página 404 en la dirección del sitio. Hazla pública primero."
     "Could not write ([^<]*?)\. Check the free disk space and the permissions of the data folder; nothing was changed\.","No se pudo escribir $1. Comprueba el espacio libre en disco y los permisos de la carpeta data; no se ha cambiado nada."
     "This page cannot be saved: its parent page does not exist\. Create the parent page first\.","No se puede guardar esta página: su página superior no existe. Crea primero la página superior."
@@ -216,3 +215,4 @@ ALERTS
     "<b>Open file options to see your uploaded file<\/b>","<b>Abre las opciones de archivos para ver el archivo subido</b>"
     "^Cannot create ZIP archive\.$","No se puede crear el archivo ZIP."
     "^Hide all alerts until next login$","Ocultar todas las alertas hasta el próximo inicio de sesión"
+    "^Make another page public first: the home page cannot be private\.$","Haz pública otra página primero: la página de inicio no puede ser privada."
